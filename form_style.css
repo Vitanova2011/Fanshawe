@@ -11,7 +11,7 @@ body{
 	font-size: 2.0em;
 	}
 
-	.one {
+	.one b {
 	    color: Purple;
 	}
 
@@ -19,12 +19,28 @@ body{
 	    color: Yellow;
 	}
 
-.Customer {
-		input: required;
+.Customer b {
+	input: required;
 }
 
 .Preferred, #instructions {
-		input: optional;
+	input: optional;
+}
+
+fieldset> p {
+	color: Green
+}
+
+form> label {
+	font-family: elephant, Times New Roman, Ariel;
+}
+
+h1 ~ h2 {
+	font-weight: bold;
+}
+
+h1 + h2 {
+	text-decoration: underline;
 }
 
 
